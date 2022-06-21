@@ -1,27 +1,29 @@
-body {
-    font-family: Arial;
+corpo {
+    fonte-família: Arial;
 }
 
-.caixa-cinza {
-   background-color: #CCCCCC;
-   text-align: center;
-   padding: 10px;
+
+caixa-cinza {
+   cor de fundo: #CCCCCC;
+   alinhamento de texto: centro;
+   preenchimento: 10px;
 }
 
-#foto {
-    width: 100%;
+
+ #foto {
+    largura: 100%;
 }
 
-#lado-a-lado {
+ #lado-a-lado {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    itens de alinhamento: centro;
+    justificar-conteúdo: espaço-uniforme;
 }
 
 
-#p1 {
-    font-weight: bold; /* Texto em negrito */
-    color: #690000; /* Muda a cor da fonte */
-    text-decoration: underline; /* Deixa a linha sublinhada */
-    font-size: 22px; /* Muda o tamanho da fonte */
+ #p1 {
+    peso fonte: negrito; /* Texto em negrito */
+    cor: #690000; /* Muda a cor da fonte */
+    text-decoração: sublinhar; /* Deixa a linha sublinhada */
+    tamanho da fonte: 22px; /* Muda o tamanho da fonte */
 }
