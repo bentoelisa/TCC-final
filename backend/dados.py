@@ -1,7 +1,7 @@
 import sqlite3
 
 nome_banco = "boardgame"
-con = sqlite3.connect(nome_banco)
+con = sqlite3.connect("boardgame")
 cur = con.cursor()
 # id INTEGER, como jogar TEXT, idade INTEGER, preco REAL
 Jogos = [
