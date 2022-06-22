@@ -27,6 +27,7 @@ def todos():
 @app.route("/lista/<int:id>") # http://127.0.0.1:5000/todos
 
 def lista_um(id):
+    
     con = pega_conexao()
     cur = con.cursor()
     cur.execute(f"SELECT * FROM boardgame WHERE id={id}")
