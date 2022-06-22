@@ -10,7 +10,7 @@ boardgame = [
     (None,'Banco Imobiliario', 'Tabuleiro', 10,80.00,),
     (None,'Cashn Guns','Tabuleiro',10,215,00)
     ]
-cur.executemany("INSERT INTO boardgame VALUES (?,?,?,?,?)", boardgame)
+cur.executemany("INSERT INTO boardgame VALUES (?, ?, ?, ?, ?)", boardgame)
 
 con.commit()
 con.close()
