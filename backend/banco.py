@@ -15,8 +15,8 @@ consulta = """CREATE TABLE boardgame (
     Informação sobre jogo TEXT,
     Como jogar TEXT,
     Idade indicada INTEGER,
-    Preço REAL,
+    Preço REAL
     )
     """
-cursor.execute('boardgame') # Executa a consulta SQL
+cursor.execute(boardgame) # Executa a consulta SQL
 conexao.close() # Fecha a conexão com o banco
