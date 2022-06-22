@@ -13,7 +13,7 @@ CORS(app)
 
 @app.route("/")
 def raiz():
-    return "boardgame!"
+    return "Resposta do meu backend em Python!"
 
 @app.route("/todos")
 def todos():
