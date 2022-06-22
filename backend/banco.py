@@ -18,5 +18,5 @@ consulta = """CREATE TABLE boardgame (
     Preço REAL,
     )
     """
-cursor.execute() # Executa a consulta SQL
+cursor.execute(consulta) # Executa a consulta SQL
 conexao.close() # Fecha a conexão com o banco
