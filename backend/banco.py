@@ -12,10 +12,10 @@ cursor = conexao.cursor() # Obtém o cursor para o banco
 
 consulta = """CREATE TABLE boardgame (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    Informação sobre jogo TEXT,
-    Como jogar TEXT,
-    Idade indicada INTEGER,
-    Preço REAL
+    nome TEXT,
+    tipo TEXT,
+    idade INTEGER,
+    preco REAL
     )
     """
 cursor.execute(consulta) # Executa a consulta SQL
